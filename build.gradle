@@ -1,0 +1,28 @@
+plugins {
+    id 'java'
+    id "application"
+}
+
+group 'oracle.interview'
+version '1.0'
+
+application {
+    mainClassName = 'oracle.interview.metrics.Main'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0', 'org.jmockit:jmockit:1.49', 'org.hamcrest:hamcrest:2.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
+}
+
+//targetCompatibility = JavaVersion.VERSION_1_8
+//sourceCompatibility = JavaVersion.VERSION_1_8
+
+test {
+   useJUnitPlatform()
+    jvmArgs "-javaagent:${classpath.find { it.name.contains("jmockit") }.absolutePath}"
+}
