@@ -1,5 +1,5 @@
 .grade
 .idea
 gradle
-gradlew
 gradlew.bat
+gradlew
