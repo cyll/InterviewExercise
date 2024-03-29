@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--
+
+
+-->
+
+
+<metricCollection>
+    <target name="red.oracle.com" type="host">
+        <description>the red VM</description>
+        <metric type="cpu" timestamp="10-Dec-2020" value="80"></metric>
+        <metric type="memory" timestamp="10-Dec-2020" value="61"></metric>
+        <metric type="cpu" timestamp="9-Dec-2020" value="20"></metric>
+        <metric type="memory" timestamp="9-Dec-2020" value="51"></metric>
+        <metric type="cpu" timestamp="8-Dec-2020" value="10"></metric>
+        <metric type="memory" timestamp="8-Dec-2020" value="44"></metric>
+        <metric type="cpu" timestamp="7-Dec-2020" value="10"></metric>
+        <metric type="memory" timestamp="7-Dec-2020" value="45"></metric>
+        <metric type="cpu" timestamp="6-Dec-2020" value="10"></metric>
+        <metric type="memory" timestamp="6-Dec-2020" value="47"></metric>
+        <metric type="cpu" timestamp="5-Dec-2020" value="14"></metric>
+        <metric type="memory" timestamp="5-Dec-2020" value="47"></metric>
+        <metric type="cpu" timestamp="4-Dec-2020" value="12"></metric>
+        <metric type="memory" timestamp="4-Dec-2020" value="49"></metric>
+    </target>
+
+    <target name="blue.oracle.com" type="host">
+        <description>the blue VM</description>
+        <metric type="cpu" timestamp="10-Dec-2020" value="80"></metric>
+        <metric type="memory" timestamp="10-Dec-2020" value="55"></metric>
+        <metric type="cpu" timestamp="9-Dec-2020" value="20"></metric>
+        <metric type="memory" timestamp="9-Dec-2020" value="50"></metric>
+        <metric type="cpu" timestamp="8-Dec-2020" value="10"></metric>
+        <metric type="memory" timestamp="8-Dec-2020" value="62"></metric>
+        <metric type="cpu" timestamp="7-Dec-2020" value="10"></metric>
+        <metric type="memory" timestamp="7-Dec-2020" value="51"></metric>
+        <metric type="cpu" timestamp="6-Dec-2020" value="10"></metric>
+        <metric type="memory" timestamp="6-Dec-2020" value="51"></metric>
+        <metric type="cpu" timestamp="5-Dec-2020" value="14"></metric>
+        <metric type="memory" timestamp="5-Dec-2020" value="54"></metric>
+        <metric type="cpu" timestamp="4-Dec-2020" value="12"></metric>
+        <metric type="memory" timestamp="4-Dec-2020" value="51"></metric>
+    </target>
+
+    <target name="green.oracle.com" type="host">
+        <description>the green VM</description>
+        <metric type="cpu" timestamp="10-Dec-2020" value="73"></metric>
+        <metric type="memory" timestamp="10-Dec-2020" value="21"></metric>
+        <metric type="cpu" timestamp="9-Dec-2020" value="70"></metric>
+        <metric type="memory" timestamp="9-Dec-2020" value="25"></metric>
+        <metric type="cpu" timestamp="8-Dec-2020" value="64"></metric>
+        <metric type="memory" timestamp="8-Dec-2020" value="31"></metric>
+        <metric type="cpu" timestamp="7-Dec-2020" value="96"></metric>
+        <metric type="memory" timestamp="7-Dec-2020" value="30"></metric>
+        <metric type="cpu" timestamp="6-Dec-2020" value="44"></metric>
+        <metric type="memory" timestamp="6-Dec-2020" value="25"></metric>
+        <metric type="cpu" timestamp="5-Dec-2020" value="88"></metric>
+        <metric type="memory" timestamp="5-Dec-2020" value="22"></metric>
+        <metric type="cpu" timestamp="4-Dec-2020" value="53"></metric>
+        <metric type="memory" timestamp="4-Dec-2020" value="20"></metric>
+    </target>
+
+</metricCollection>
