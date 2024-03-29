@@ -18,7 +18,10 @@ import java.util.Locale;
 import java.util.stream.Collectors;
 
 /**
- *
+ * The class {@link MetricWriterImplementation} contains the logic need to map Metric XML objects and convert them into
+ * {@link TargetMetricsContainer} list
+ * @author Christian Lopez
+ * @version 1.0
  */
 public class MetricReaderImplementation implements MetricReader {
     private final static Logger LOGGER = LoggerFactory.getLogger(MetricReaderImplementation.class);

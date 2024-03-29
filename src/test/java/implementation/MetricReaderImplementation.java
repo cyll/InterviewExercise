@@ -1,6 +1,5 @@
 package implementation;
 
-import oracle.interview.implementation.MetricReaderImplementation;
 import oracle.interview.metrics.MetricReader;
 import oracle.interview.metrics.TargetMetricsContainer;
 import org.junit.jupiter.api.BeforeEach;
@@ -19,11 +18,11 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.*;
 
 
-public class MetricReaderImplementationTest {
+public class MetricReaderImplementation {
 
     private static final String RESOURCE_NAME = "test_metrics_data.xml";
     private File testFile;
-    private MetricReader reader = new MetricReaderImplementation();
+    private MetricReader reader = new oracle.interview.implementation.MetricReaderImplementation();
     @BeforeEach
     public void init(){
         URL libraryURL = ClassLoader.getSystemClassLoader().getResource(RESOURCE_NAME);
@@ -32,7 +31,7 @@ public class MetricReaderImplementationTest {
         }
          testFile = new File(URLDecoder.decode(libraryURL.getFile(), Charset.defaultCharset()));
     }
-    MetricReaderImplementation metricReaderImplementation;
+    oracle.interview.implementation.MetricReaderImplementation metricReaderImplementation;
     @Test
     public void readMetricsCheckListNotNullTest() throws IOException, ParserConfigurationException, SAXException {
         try(FileInputStream fis = new FileInputStream(testFile)){
